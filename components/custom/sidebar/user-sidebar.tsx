@@ -13,10 +13,10 @@ import {
   Construction,
 } from "lucide-react";
 
-import { NavMain } from "@/components/nav-main";
-import { NavProfile } from "@/components/nav-profile";
-import { NavUser } from "@/components/nav-user";
-import { TeamSwitcher } from "@/components/team-switcher";
+import { NavMain } from "@/components/custom/sidebar/nav-main";
+import { NavProfile } from "@/components/custom/sidebar/nav-profile";
+import { NavUser } from "@/components/custom/sidebar/nav-user";
+import { TeamSwitcher } from "@/components/custom/sidebar/team-switcher";
 import {
   Sidebar,
   SidebarContent,
@@ -95,12 +95,12 @@ const data = {
   navDashboard: [
     {
       name: "Home",
-      url: "#",
+      url: "/",
       icon: House,
     },
     {
       name: "Dashboard",
-      url: "#",
+      url: "/user",
       icon: Gauge,
     },
   ],
